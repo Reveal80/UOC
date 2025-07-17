@@ -101,33 +101,33 @@ main {
   text-align: left;
 }
 
-/* Estilo visual tipo botón para enlaces internos */
-.card a {
-  background-color: #002e5d;
-  color: #fff;
-  padding: 0.4rem 0.8rem;
-  border-radius: 5px;
-  font-size: 0.8rem;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 0.5rem;
-  transition: background-color 0.2s;
-}
-
-.card a:hover {
-  background-color: #004080;
-}
-
+/* Contenedor de botones */
 .card-links {
   display: flex;
-  gap: 1rem;
   justify-content: space-between;
-  margin-top: 1rem;
+  gap: 1rem;
+  margin-top: auto;
 }
 
+.card-links:has(:only-child) {
+  justify-content: center;
+}
+
+/* Botones */
 .card-links a {
   flex: 1;
   text-align: center;
+  background-color: #002e5d;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.card-links a:hover {
+  background-color: #004080;
 }
 
 /* Footer */
