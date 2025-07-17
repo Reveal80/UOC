@@ -88,11 +88,11 @@ main {
 
 .card h2 {
   margin-bottom: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .card p {
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   color: #444;
 }
 
