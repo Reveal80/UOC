@@ -118,6 +118,18 @@ main {
   background-color: #004080;
 }
 
+.card-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.card-links a {
+  flex: 1;
+  text-align: center;
+}
+
 /* Footer */
 footer {
   text-align: center;
