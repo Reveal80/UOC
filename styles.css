@@ -101,6 +101,23 @@ main {
   text-align: left;
 }
 
+/* Estilo visual tipo botón para enlaces internos */
+.card a {
+  background-color: #002e5d;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.card a:hover {
+  background-color: #004080;
+}
+
 /* Footer */
 footer {
   text-align: center;
