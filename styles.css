@@ -57,7 +57,6 @@ h1 {
 main {
   padding: 2rem;
   width: 100%;
-  max-width: 100%;
   margin: 0 auto;
   flex: 1;
 }
@@ -67,9 +66,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.5rem;
-  justify-items: stretch;
   width: 100%;
-  max-width: none;
 }
 
 /* Tarjetas */
@@ -113,9 +110,7 @@ footer {
   background: #fff;
 }
 
-/* Limitar el ancho en pantallas muy grandes */
-@media (min-width: 1600px) {
-  main {
-    max-width: 1500px;
-  }
+footer > p {
+  max-width: 900px;
+  margin: 0 auto;
 }
