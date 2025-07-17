@@ -38,6 +38,24 @@ h1 {
   margin: 0;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.header-text {
+  flex: 1;
+}
+
+
 /* Contenido principal */
 main {
   padding: 2rem;
