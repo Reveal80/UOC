@@ -116,6 +116,6 @@ footer {
 /* Limitar el ancho en pantallas muy grandes */
 @media (min-width: 1600px) {
   main {
-    max-width: 1400px;
+    max-width: 1500px;
   }
 }
